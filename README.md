@@ -12,7 +12,7 @@ Transformer models lack inherent understanding of word order. Position encoding 
 
 ### Approach: 
 
-RoFormer introduces a novel method called Rotary Position Embedding (RoPE): Encodes positions using rotation matrices, incorporates relative position information directly into self-attention.
+RoFormer introduces a novel method called Rotary Position Embedding (RoPE): Encodes positions using rotation matrices, and incorporates relative position information directly into self-attention.
 
 ### Solution: 
 1) Mathematical Formulation
