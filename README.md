@@ -2,24 +2,32 @@
 
 ## Overview
 
-### Context: 
-Transformer-based models rely on self-attention mechanisms, which allow them to model dependencies between tokens.
+### Introduction: 
+Sequential order of words is of great value to natural language understanding. But traditional transformers are inherently position-agnostic. They rely on self-attention mechanisms, which allow them to incorporate positional information about tokens.
 ### Problem:
 
-Traditional transformers lack inherent understanding of word order. Thus absolute and relative positional encodings are introduced to incorporate positional information about tokens. Previous solutions had drowbacks in:
+Traditional transformers ldo not inherently understand word order, so absolute and relative positional encodings are introduced to address the issue. While these approaches are effective, they have drowbacks in the following areas:
 
-1) Handling long sequences
-2) Capturing relative positions effectively
-3) Compatibility with efficient attention mechanisms
+* Handling long sequences
+* Capturing relative positions effectively
+* Compatibility with efficient attention mechanisms like linear self-attention
 
 ### Approach: 
 
-RoFormer introduces a novel method called Rotary Position Embedding (RoPE): Encodes positions using rotation matrices, and incorporates relative position information directly into self-attention.
+RoFormer introduces a novel method called Rotary Position Embedding (RoPE). It encodes positions using rotation matrices, and incorporates relative position information directly into self-attention.
+
+Rotary Position Embedding is prioritized over existing methods for its advantage in: 
+* Sequence length flexibility
+* Decaying inter-token dependency with increasing relative distances
+* Capability of equipping the linear self-attention with relative position encding
+
 
 ### Solution: 
 1) Mathematical Formulation
-2) Integration into Transformer Architecture: 
-3) Experimental Validation
+   
+3) Integration into Transformer Architecture
+
+5) Experimental Validation
 
 ## Critical Analysis
 
