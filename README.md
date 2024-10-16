@@ -2,9 +2,11 @@
 
 ## Overview
 
+### Context: 
+Transformer-based models rely on self-attention mechanisms, which allow them to model dependencies between tokens.
 ### Problem:
 
-Transformer models lack inherent understanding of word order. Position encoding is crucial for providing this sequential information. Current metohds face challenges with:
+Traditional transformers lack inherent understanding of word order. Thus absolute and relative positional encodings are introduced to incorporate positional information about tokens. Previous solutions had drowbacks in:
 
 1) Handling long sequences
 2) Capturing relative positions effectively
