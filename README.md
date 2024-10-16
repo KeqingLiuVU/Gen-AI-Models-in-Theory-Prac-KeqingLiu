@@ -45,6 +45,7 @@ Key finding: Rotary Position Embedding is prioritized over existing methods for 
 4. Faster convergence and lower loss in pre-training
 
 ## Architecture Overview
+### A 2D case
 ![Screenshot 2024-10-16 at 2 10 37 PM](https://github.com/user-attachments/assets/54942433-b592-45a0-9cae-3354d08b1971)
 ## Critical Analysis
 
