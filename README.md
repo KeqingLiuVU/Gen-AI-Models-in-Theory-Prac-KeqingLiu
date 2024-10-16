@@ -16,7 +16,7 @@ Traditional transformers do not inherently understand word order, so absolute an
 
 ReFormer, a transformer enhanced with RoPE (Rotary Position Embedding), was developed. 
 
-RoFormer introduces a novel method called Rotary Position Embedding (RoPE):
+The novel method called Rotary Position Embedding (RoPE):
 * Encodes positions using rotation matrices
 * Incorporates relative position information directly into self-attention
 
