@@ -6,7 +6,7 @@
 Sequential order of words is of great value to natural language understanding. But traditional transformers are inherently position-agnostic. They rely on self-attention mechanisms, which allow them to incorporate positional information about tokens.
 ### Problem:
 
-Traditional transformers ldo not inherently understand word order, so absolute and relative positional encodings are introduced to address the issue. While these approaches are effective, they have drowbacks in the following areas:
+Traditional transformers do not inherently understand word order, so absolute and relative positional encodings are introduced to address the issue. While these approaches are effective, they have drawbacks in the following areas:
 
 * Handling long sequences
 * Capturing relative positions effectively
