@@ -14,20 +14,32 @@ Traditional transformers ldo not inherently understand word order, so absolute a
 
 ### Approach: 
 
-RoFormer introduces a novel method called Rotary Position Embedding (RoPE). It encodes positions using rotation matrices, and incorporates relative position information directly into self-attention.
+ReFormer, a transformer enhanced with RoPE (Rotary Position Embedding), was developed. 
 
-Rotary Position Embedding is prioritized over existing methods for its advantage in: 
-* Sequence length flexibility
-* Decaying inter-token dependency with increasing relative distances
-* Capability of equipping the linear self-attention with relative position encding
-
+RoFormer introduces a novel method called Rotary Position Embedding (RoPE):
+* Encodes positions using rotation matrices
+* Incorporates relative position information directly into self-attention
 
 ### Solution: 
-1) Mathematical Formulation
+* Mathematical Formulation
+  - Derives RoPE from first principles
+  - Proves its properties mathematically
    
-3) Integration into Transformer Architecture
+* Integration into Transformer Architecture
+  - Replaces traditionally additive position encodings
+  - Modifies self-attention mechanism to use RoPE
 
-5) Experimental Validation
+* Experimental Validation
+  - Machine translation: WMT 2014 English-German dataset
+  - Language model pre-training: BookCorpus and Wikipedia
+  - Find-tuning: GLUE benchmark tasks
+  - Long document classification: Chinese legal document matching
+
+Key finding: Rotary Position Embedding is prioritized over existing methods for its advantage in: 
+1. Sequence length flexibility
+2. Decaying inter-token dependency with increasing relative distances
+3. Capability of equipping the linear self-attention with relative position encoding (e.g., Performers)
+4. Faster convergence in pre-training
 
 ## Critical Analysis
 
