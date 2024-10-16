@@ -36,10 +36,10 @@ RoFormer introduces a novel method called Rotary Position Embedding (RoPE):
   - Long document classification: Chinese legal document matching
 
 Key finding: Rotary Position Embedding is prioritized over existing methods for its advantage in: 
-1. Sequence length flexibility
+1. Sequence length flexibility, with particularly strong results on long sequence tasks
 2. Decaying inter-token dependency with increasing relative distances
 3. Capability of equipping the linear self-attention with relative position encoding (e.g., Performers)
-4. Faster convergence in pre-training
+4. Faster convergence and lower loss in pre-training
 
 ## Critical Analysis
 
