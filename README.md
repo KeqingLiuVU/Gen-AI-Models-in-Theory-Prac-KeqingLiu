@@ -23,20 +23,25 @@ The novel method called Rotary Position Embedding (RoPE):
 * Encodes positions using rotation matrices
 * Incorporates relative position information directly into self-attention
 
-### Solution: 
-* Mathematical Formulation
-  - Derives RoPE from first principles
-  - Proves its properties mathematically
-   
-* Integration into Transformer Architecture
-  - Replaces traditionally additive position encodings
-  - Modifies self-attention mechanism to use RoPE
+### Evaluation: 
 
 * Experimental Validation
-  - Machine translation: WMT 2014 English-German dataset
-  - Language model pre-training: BookCorpus and Wikipedia
-  - Find-tuning: GLUE benchmark tasks
-  - Long document classification: Chinese legal document matching
+  - Machine translation: sequence-to-sequence language translation tasks
+
+     ![Screenshot 2024-10-18 at 10 45 58 AM](https://github.com/user-attachments/assets/ded9b5ba-3614-4e89-9044-6c6cdc5cee77)
+
+  - Pre-training Language Modeling: learning contextual representations
+
+    ![Screenshot 2024-10-18 at 10 50 07 AM](https://github.com/user-attachments/assets/327f61d0-95b4-421b-8dc6-ddba08e94184)
+    
+  - Fine-tuning on GLUE tasks: generalization ability on the downstream NLP tasks
+
+    ![Screenshot 2024-10-18 at 10 49 31 AM](https://github.com/user-attachments/assets/2663e346-eea4-474b-9474-6041968296cb)
+
+  - Long documents: text whose length exceeds 512 characters
+    
+    ![Screenshot 2024-10-18 at 6 25 04 PM](https://github.com/user-attachments/assets/abec11ba-4167-478a-b45a-c782391f864e)
+
 
 Key finding: Rotary Position Embedding is prioritized over existing methods for its advantage in: 
 1. Sequence length flexibility, with particularly strong results on long sequence tasks
