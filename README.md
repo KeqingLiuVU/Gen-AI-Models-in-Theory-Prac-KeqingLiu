@@ -52,11 +52,6 @@ Key finding: Rotary Position Embedding is prioritized over existing methods for 
 ## Impacts
 
 ## Resource Links
-@article{su2021roformer,
-  title={RoFormer: Enhanced Transformer with Rotary Position Embedding},
-  author={Su, Jianlin and Lu, Yu and Pan, Shengfeng and Murtadha, Ahmed and Wen, Bo and Liu, Yunfeng},
-  journal={arXiv preprint arXiv:2104.09864},
-  year={2021}
-}
-
+https://medium.com/p/31c082e16b26
+https://kexue.fm/archives/8265
 
