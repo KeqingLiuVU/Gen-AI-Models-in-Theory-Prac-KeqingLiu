@@ -11,15 +11,14 @@ Sequential order of words is of great value to natural language understanding. T
 
 The 2 methods drawbacks in the following areas:
 
-* Handling long sequences
-* Capturing relative positions effectively
+* Handling long sequences: Absolute positional encoding struggles with long sequences since it uses fixed position values that don't work well for longer contexts.
+* Capturing relative positions effectively: Relative positional encoding is more complex and adds extra computation to handle the distances between tokens.
 * Compatibility with efficient attention mechanisms like linear self-attention
 
 ### Approach: 
 
-ReFormer, a transformer enhanced with RoPE (Rotary Position Embedding), was developed. 
+Rotary positional embedding, or RoPE, is an effective technique that combines the strengths of both absolute and relative embeddings. It encodes positional information by rotating word vectors in a high-dimensional space, with the rotation amount determined by each word's position in the sequence. This allows the model to easily compute the relative position between any two words by comparing their rotation differences. As a result, each word receives a unique rotation based on its absolute position, while the model can still capture relative positional information.
 
-The novel method called Rotary Position Embedding (RoPE):
 * Encodes positions using rotation matrices
 * Incorporates relative position information directly into self-attention
 
