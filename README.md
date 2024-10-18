@@ -46,12 +46,15 @@ Key finding: Rotary Position Embedding is prioritized over existing methods for 
 
 ## Architecture Overview
 ### A 2D case
-![Screenshot 2024-10-16 at 2 10 37 PM](https://github.com/user-attachments/assets/54942433-b592-45a0-9cae-3354d08b1971)
+
+![Screenshot 2024-10-18 at 6 09 43 PM](https://github.com/user-attachments/assets/450583f4-144f-4331-9ce0-bcc66a83d8fc)
+
 ## Critical Analysis
 
 ## Impacts
 
 ## Resource Links
 https://medium.com/p/31c082e16b26
+
 https://kexue.fm/archives/8265
 
