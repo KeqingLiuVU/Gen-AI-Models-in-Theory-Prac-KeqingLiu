@@ -99,6 +99,13 @@ RoPE has enhanced transformers' capacity to process longer sequences, benefiting
 
 ![Screenshot 2024-10-18 at 6 09 43 PM](https://github.com/user-attachments/assets/450583f4-144f-4331-9ce0-bcc66a83d8fc)
 
+![Screenshot 2024-10-19 at 4 24 49 PM](https://github.com/user-attachments/assets/87c394a8-4057-4d6b-8214-ec6fa9266402)
+
+The function appleis RoPE to either query (q) or key(k) at position m.  The formula: 
+
+1. First applies a learned linear transformation to the input vector (multiplication by the W matrix)
+2. Then rotates the result based on the position m (multiplication by the rotation matrix)
+   
 ## Citation:
 @misc{su2023roformerenhancedtransformerrotary,
       title={RoFormer: Enhanced Transformer with Rotary Position Embedding}, 
