@@ -5,8 +5,9 @@
 ### Introduction: 
 Sequential order of words is of great value to natural language understanding. Transformer models require positional encoding because the Attention mechanism alone cannot capture the order of input tokens or distinguish their positions. There are two main approaches to address this:
 * Absolute positional encoding: Integrate positional information directly into the input.
+<img width="626" alt="Screenshot 2024-10-18 at 7 23 48 PM" src="https://github.com/user-attachments/assets/e70501c0-4b23-478f-bb56-4623e4124f10">
 * Relative positional encoding: Modify the attention mechanism to enable it to distinguish tokens based on their positions.
-  
+<img width="754" alt="Screenshot 2024-10-18 at 7 24 33 PM" src="https://github.com/user-attachments/assets/51adfbbe-4287-496b-9a0c-78042b350460">
 ### Problem:
 
 The 2 methods drawbacks in the following areas:
