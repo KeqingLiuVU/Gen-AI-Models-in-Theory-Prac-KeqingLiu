@@ -31,6 +31,9 @@ The 2 methods drawbacks in the following areas:
 
 ### Approach: 
 
+![Screenshot 2024-10-18 at 7 52 14 PM](https://github.com/user-attachments/assets/feda4254-a81c-47f3-83e0-3e0bae264fb3)
+
+
 Rotary positional embedding, or RoPE, is an effective technique that combines the strengths of both absolute and relative embeddings. It encodes positional information by rotating word vectors in a high-dimensional space, with the rotation amount determined by each word's position in the sequence. This allows the model to easily compute the relative position between any two words by comparing their rotation differences. As a result, each word receives a unique rotation based on its absolute position, while the model can still capture relative positional information.
 
 * Encodes positions using rotation matrices
