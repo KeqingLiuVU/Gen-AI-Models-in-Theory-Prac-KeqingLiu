@@ -114,6 +114,13 @@ The function appleis RoPE to either query (q) or key(k) at position m.  The form
 Pseudocode:
 
 <img width="1129" alt="Screenshot 2024-10-19 at 6 38 33 PM" src="https://github.com/user-attachments/assets/d10e6c7d-e5a8-4a5c-ab6c-e2b2259b6391">
+
+### General form
+
+![Screenshot 2024-10-19 at 6 41 38 PM](https://github.com/user-attachments/assets/47b52f25-a21e-426a-9030-c6c941b8f95d)
+
+
+
 ## Citation:
 @misc{su2023roformerenhancedtransformerrotary,
       title={RoFormer: Enhanced Transformer with Rotary Position Embedding}, 
@@ -124,6 +131,8 @@ Pseudocode:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2104.09864}, 
 }
+
+
 
 @misc{phuong2022formalalgorithmstransformers,
       title={Formal Algorithms for Transformers}, 
