@@ -1,5 +1,9 @@
 # ReFormer: Enhanced Transformer with Rotary Position Embedding
 
+## Impacts
+
+The paper proposed a novel method named Rotary Positional Embedding (RoPE) based on the foundation of positional encodings introduced in the original transformer model by Vaswani et al. (2017). It addressed limitations in traditional positional encoding methods. 
+
 ## Overview
 
 ### Background: 
@@ -96,6 +100,11 @@ Key finding: Rotary Position Embedding is prioritized over existing methods for 
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2207.09238}, 
 }
+
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, L ukasz Kaiser,
+and Illia Polosukhin. Attention is all you need. In I. Guyon, U. V. Luxburg, S. Bengio, H. Wallach,
+R. Fergus, S. Vishwanathan, and R. Garnett, editors, Advances in Neural Information Processing Systems, volume 30. Curran Associates, Inc., 2017. URL https://proceedings.neurips.cc/paper/2017/file/
+3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf.
 
 ## Resource Links
 https://medium.com/p/31c082e16b26
