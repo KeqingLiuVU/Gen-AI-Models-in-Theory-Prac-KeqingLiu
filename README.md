@@ -1,5 +1,7 @@
 # ReFormer: Enhanced Transformer with Rotary Position Embedding
 
+## Impact
+
 ### Impacts & Importance:
 
 The paper proposed a novel method named Rotary Positional Embedding (RoPE). RoPE improves transformers by enabling better handling of relative positions and long dependencies in tasks like text generation. By improving both efficiency and accuracy, RoPE strengthens transformer models across domains, including NLP and computer vision.
