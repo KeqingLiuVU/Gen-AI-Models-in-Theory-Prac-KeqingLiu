@@ -117,7 +117,7 @@ Pseudocode:
 
 ### General form
 
-![Screenshot 2024-10-19 at 6 41 38 PM](https://github.com/user-attachments/assets/47b52f25-a21e-426a-9030-c6c941b8f95d)
+![Screenshot 2024-10-19 at 6 44 57 PM](https://github.com/user-attachments/assets/b03d56df-a505-4ee6-b169-1a9b52e04d88)
 
 
 
