@@ -11,6 +11,7 @@ Sequential order of words is of great value to natural language understanding. T
 
 * Relative positional encoding: Modify the attention mechanism to enable it to distinguish tokens based on their positions.
 <img width="754" alt="Screenshot 2024-10-18 at 7 24 33 PM" src="https://github.com/user-attachments/assets/51adfbbe-4287-496b-9a0c-78042b350460">
+
 A: attention score matrix
 
 B: position bias matrix based on the relative position j-i
