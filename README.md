@@ -7,8 +7,6 @@ Sequential order of words is of great value to natural language understanding. T
 * Absolute positional encoding: Integrate positional information directly into the input.
 <img width="626" alt="Screenshot 2024-10-18 at 7 23 48 PM" src="https://github.com/user-attachments/assets/e70501c0-4b23-478f-bb56-4623e4124f10">
 
-![Screenshot 2024-10-18 at 7 25 51 PM](https://github.com/user-attachments/assets/b6a30d7e-150c-40b4-abed-b9dd788810c5)![Screenshot 2024-10-18 at 7 25 57 PM](https://github.com/user-attachments/assets/0662da9d-1829-4934-a4ee-c4e2ce4eae17) 
-
 * Relative positional encoding: Modify the attention mechanism to enable it to distinguish tokens based on their positions.
 <img width="754" alt="Screenshot 2024-10-18 at 7 24 33 PM" src="https://github.com/user-attachments/assets/51adfbbe-4287-496b-9a0c-78042b350460">
 
