@@ -38,7 +38,7 @@ Rotary positional embedding, or RoPE, is an effective technique that combines th
 
 ![Screenshot 2024-10-19 at 9 49 43 AM](https://github.com/user-attachments/assets/b5a496d8-0845-4b6c-b853-13f93b28b2cd)
 
-### Evaluation: 
+### Experiments: 
 
 * Experimental Validation
   - Machine translation: sequence-to-sequence language translation tasks
