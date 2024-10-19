@@ -80,3 +80,4 @@ https://arxiv.org/abs/2207.09238
 
 https://huggingface.co/docs/transformers/model_doc/roformer
 
+https://www.youtube.com/watch?v=o29P0Kpobz0
