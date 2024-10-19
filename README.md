@@ -97,6 +97,8 @@ RoPE has enhanced transformers' capacity to process longer sequences, benefiting
 
 ![Screenshot 2024-10-18 at 10 08 10 AM](https://github.com/user-attachments/assets/91ee2438-cf28-458b-9c6c-befd06ed886e)
 
+Given a token embedding and its position, absolute positional embedding adds a separate positional embedding to the token embedding. In contrast, rotary positional embedding integrates the positional information directly into the token embedding, producing a new embedding that naturally includes the position.
+
 ### A 2D case
 
 ![Screenshot 2024-10-18 at 6 09 43 PM](https://github.com/user-attachments/assets/450583f4-144f-4331-9ce0-bcc66a83d8fc)
