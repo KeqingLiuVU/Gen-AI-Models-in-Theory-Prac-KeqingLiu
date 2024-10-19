@@ -64,6 +64,15 @@ Key finding: Rotary Position Embedding is prioritized over existing methods for 
 3. Capability of equipping the linear self-attention with relative position encoding (e.g., Performers)
 4. Faster convergence and lower loss in pre-training
 
+## Critical Analysis
+
+* Limited theoretical explanation: While the authors provide mathematical formulations of RoPE, there lacks of thorough explanations on why it converges faster than baseline models with other position encoding strategies. This theoretical gap could have been developed further.
+  
+* Unexplained performance on long texts: Although the model has superior performance on long texts compared to peer models, the authors have not come up with a faithful explanation for this. This is a significant limitation that warrants further investigation.
+
+* Limited comparison to recent alternatives: While the authors compare RoFormer to BERT and some other models, they don't extensively compare it to more recent position encoding methods or transformer variants. This limits the paper's ability to definitively claim superiority over state-of-the-art alternatives.
+
+
 ## Impact
 
 ### Impacts & Importance:
@@ -89,14 +98,6 @@ RoPE has enhanced transformers' capacity to process longer sequences, benefiting
 ### A 2D case
 
 ![Screenshot 2024-10-18 at 6 09 43 PM](https://github.com/user-attachments/assets/450583f4-144f-4331-9ce0-bcc66a83d8fc)
-
-## Critical Analysis
-
-* Limited theoretical explanation: While the authors provide mathematical formulations of RoPE, there lacks of thorough explanations on why it converges faster than baseline models with other position encoding strategies. This theoretical gap could have been developed further.
-  
-* Unexplained performance on long texts: Although the model has superior performance on long texts compared to peer models, the authors have not come up with a faithful explanation for this. This is a significant limitation that warrants further investigation.
-
-* Limited comparison to recent alternatives: While the authors compare RoFormer to BERT and some other models, they don't extensively compare it to more recent position encoding methods or transformer variants. This limits the paper's ability to definitively claim superiority over state-of-the-art alternatives.
 
 ## Citation:
 @misc{su2023roformerenhancedtransformerrotary,
