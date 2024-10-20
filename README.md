@@ -64,33 +64,6 @@ Key finding: Rotary Position Embedding is prioritized over existing methods for 
 3. Capability of equipping the linear self-attention with relative position encoding (e.g., Performers)
 4. Faster convergence and lower loss in pre-training
 
-## Critical Analysis
-
-* Limited theoretical explanation: While the authors provide mathematical formulations of RoPE, there lacks of thorough explanations on why it converges faster than baseline models with other position encoding strategies. This theoretical gap could have been developed further.
-  
-* Unexplained performance on long texts: Although the model has superior performance on long texts compared to peer models, the authors have not come up with a faithful explanation for this. This is a significant limitation that warrants further investigation.
-
-* Limited comparison to recent alternatives: While the authors compare RoFormer to BERT and some other models, they don't extensively compare it to more recent position encoding methods or transformer variants. This limits the paper's ability to definitively claim superiority over state-of-the-art alternatives.
-
-
-## Impact
-
-### Impacts & Importance:
-
-The paper proposed a novel method named Rotary Positional Embedding (RoPE). RoPE improves transformers by enabling better handling of relative positions and long dependencies in tasks like text generation. By improving both efficiency and accuracy, RoPE strengthens transformer models across domains, including NLP and computer vision.
-
-### Intersection with other work:
-
-Rotary Positional Embedding (RoPE) builds on the original positional encoding introduced by Vaswani et al. (2017), addressing its limitations in handling long sequences.
-
-Since its introduction in 2022, RoPE has been incorporated into models like PaLM (Google), GPT-Neo and GPT-J (EleutherAI), and LLaMA (Meta), improving their ability to handle long sequences in real-world applications such as chatbots and document summarization.
-
-RoPE enables scalable transformers with longer contexts, multimodal AI, and more efficient handling of large-scale data. Future work may explore adaptive or hierarchical positional encodings, further enhancing AI's ability to process complex inputs.
-
-### Changing the AI landscape:
-
-RoPE has enhanced transformers' capacity to process longer sequences, benefiting models like GPT-3 and PaLM. This improvement allows for more complex tasks, including document summarization, code generation, and advanced conversation modeling. Its adoption signals a shift toward more scalable transformers, laying the groundwork for advancements in sequence modeling and multimodal AI.
-
 ## Architecture Overview
 
 <img width="888" alt="Screenshot 2024-10-19 at 5 59 34 PM" src="https://github.com/user-attachments/assets/e7ea1961-cfb7-4840-a223-9c568433c00e">
@@ -127,6 +100,31 @@ When the vector has more than two dimensions, it is divided into two-dimensional
 
 ![Screenshot 2024-10-19 at 8 03 46 PM](https://github.com/user-attachments/assets/d8ab011a-f7b8-474b-a08c-c8431890db61)
 
+## Critical Analysis
+
+* Limited theoretical explanation: While the authors provide mathematical formulations of RoPE, there lacks of thorough explanations on why it converges faster than baseline models with other position encoding strategies. This theoretical gap could have been developed further.
+  
+* Unexplained performance on long texts: Although the model has superior performance on long texts compared to peer models, the authors have not come up with a faithful explanation for this. This is a significant limitation that warrants further investigation.
+
+* Limited comparison to recent alternatives: While the authors compare RoFormer to BERT and some other models, they don't extensively compare it to more recent position encoding methods or transformer variants. This limits the paper's ability to definitively claim superiority over state-of-the-art alternatives.
+
+## Impact
+
+### Impacts & Importance:
+
+The paper proposed a novel method named Rotary Positional Embedding (RoPE). RoPE improves transformers by enabling better handling of relative positions and long dependencies in tasks like text generation. By improving both efficiency and accuracy, RoPE strengthens transformer models across domains, including NLP and computer vision.
+
+### Intersection with other work:
+
+Rotary Positional Embedding (RoPE) builds on the original positional encoding introduced by Vaswani et al. (2017), addressing its limitations in handling long sequences.
+
+Since its introduction in 2022, RoPE has been incorporated into models like PaLM (Google), GPT-Neo and GPT-J (EleutherAI), and LLaMA (Meta), improving their ability to handle long sequences in real-world applications such as chatbots and document summarization.
+
+RoPE enables scalable transformers with longer contexts, multimodal AI, and more efficient handling of large-scale data. Future work may explore adaptive or hierarchical positional encodings, further enhancing AI's ability to process complex inputs.
+
+### Changing the AI landscape:
+
+RoPE has enhanced transformers' capacity to process longer sequences, benefiting models like GPT-3 and PaLM. This improvement allows for more complex tasks, including document summarization, code generation, and advanced conversation modeling. Its adoption signals a shift toward more scalable transformers, laying the groundwork for advancements in sequence modeling and multimodal AI.
 
 ## Citation:
 @misc{su2023roformerenhancedtransformerrotary,
