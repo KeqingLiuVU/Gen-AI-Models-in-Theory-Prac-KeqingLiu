@@ -123,6 +123,11 @@ Pseudocode:
 
 <img width="703" alt="Screenshot 2024-10-19 at 7 53 56 PM" src="https://github.com/user-attachments/assets/eda46acd-2822-42df-9cab-3c1c44d3c64f">
 
+When the vector has more than two dimensions, it is divided into two-dimensional chunks, and each chunk is rotated. The first chunk undergoes rotation in the first two dimensions, while different rotation angles are applied to each pair of dimensions in the vector. And RoPE assumes the dimension of vector is an even number.
+
+![Screenshot 2024-10-19 at 8 03 46 PM](https://github.com/user-attachments/assets/d8ab011a-f7b8-474b-a08c-c8431890db61)
+
+
 ## Citation:
 @misc{su2023roformerenhancedtransformerrotary,
       title={RoFormer: Enhanced Transformer with Rotary Position Embedding}, 
