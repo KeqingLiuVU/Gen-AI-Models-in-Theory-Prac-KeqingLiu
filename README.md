@@ -119,7 +119,9 @@ Pseudocode:
 
 ![Screenshot 2024-10-19 at 6 44 57 PM](https://github.com/user-attachments/assets/b03d56df-a505-4ee6-b169-1a9b52e04d88)
 
+Pseudocode: 
 
+<img width="703" alt="Screenshot 2024-10-19 at 7 53 56 PM" src="https://github.com/user-attachments/assets/eda46acd-2822-42df-9cab-3c1c44d3c64f">
 
 ## Citation:
 @misc{su2023roformerenhancedtransformerrotary,
